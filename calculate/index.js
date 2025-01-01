@@ -1,4 +1,4 @@
-const { calclulation,x } = require("./Sum.js");
-const { multiplication } = require("./multiplication.js");
-const {substraction}  = require("./subs.js");
-module.exports = { calclulation,x, multiplication,substraction };
+const { calculateofmulofsum } = require("./mul");
+const { calculateofSum } = require("./sum");
+
+module.exports = { calculateofSum, calculateofmulofsum };
